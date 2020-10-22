@@ -12,6 +12,7 @@ function on_success(position)
 	"&zoom=14&size=400x300&key=AIzaSyDIni3W4Lj1K6n9aKppUSGC1mBIWxPQCig";
 	
 	document.getElementById("map").innerHTML= "<img src='"+img_url+"'>";
+}
 	function on_error(e)
 	{
 		document.getElementById("text").innerHTML=e.message;
