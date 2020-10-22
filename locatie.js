@@ -1,10 +1,10 @@
 get_goo_position();
 function on_success(position)
 {
-	document.getElementById("latitude").innerHMTL="Latitude="+position.coords.latitude;
-	document.getElementById("longitude").innerHMTL="Longitude="+position.coords.longitude;
-	document.getElementById("acc").innerHMTL="Accuracy="+position.coords.accuracy;
-	document.getElementById("altitude").innerHMTL="Altitude="+position.coords.altitude;
+	document.getElementById("latitude").innerHTML="Latitude="+position.coords.latitude;
+	document.getElementById("longitude").innerHTML="Longitude="+position.coords.longitude;
+	document.getElementById("acc").innerHTML="Accuracy="+position.coords.accuracy;
+	document.getElementById("altitude").innerHTML="Altitude="+position.coords.altitude;
 	var latlon=position.coords.latitude+ "," +position.coords.longitude;
 	
 	
